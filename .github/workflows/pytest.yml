@@ -34,12 +34,13 @@ jobs:
 
       - name: Run grupos tests
         run: |
-          python -m pytest -v test_main_grupos.py
+          python -m pytest -v test_main_grupos.py      
+      
+      - name: generator testes
+        run: |
+          python geradores/gerador1.py 
       
       - name: Run unit 100
         run: |
           python -m pytest -v test_unit_100.py
       
-      - name: generator testes
-        run: |
-          python geradores/gerador1.py 
