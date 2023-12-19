@@ -1,0 +1,183 @@
+============================= test session starts =============================
+platform win32 -- Python 3.10.11, pytest-7.4.2, pluggy-1.3.0 -- C:\Users\USER\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\python.exe
+cachedir: .pytest_cache
+hypothesis profile 'default' -> database=DirectoryBasedExampleDatabase(WindowsPath('C:/Users/USER/Documents/Ciencias Atuariais/Mestrado/PERÍODOS/1/TESTE DE SOFTWARE/GITHUB/TESTE 02-12-2023/.hypothesis/examples'))
+metadata: {'Python': '3.10.11', 'Platform': 'Windows-10-10.0.19045-SP0', 'Packages': {'pytest': '7.4.2', 'pluggy': '1.3.0'}, 'Plugins': {'hypothesis': '6.88.1', 'html': '3.2.0', 'metadata': '3.0.0', 'ordering': '0.6', 'xdist': '3.3.1'}}
+rootdir: C:\Users\USER\Documents\Ciencias Atuariais\Mestrado\PERÍODOS\1\TESTE DE SOFTWARE\GITHUB\TESTE 02-12-2023
+plugins: hypothesis-6.88.1, html-3.2.0, metadata-3.0.0, ordering-0.6, xdist-3.3.1
+collecting ... collected 100 items
+
+test_main_100k.py::TestCalc::test_equal_20 PASSED                        [  1%]
+test_main_100k.py::TestCalc::test_equal_65 PASSED                        [  2%]
+test_main_100k.py::TestCalc::test_equal_94 PASSED                        [  3%]
+test_main_100k.py::TestCalc::test_equal_15 FAILED                        [  4%]
+test_main_100k.py::TestCalc::test_equal_23 PASSED                        [  5%]
+test_main_100k.py::TestCalc::test_equal_67 FAILED                        [  6%]
+test_main_100k.py::TestCalc::test_equal_99 PASSED                        [  7%]
+test_main_100k.py::TestCalc::test_equal_36 PASSED                        [  8%]
+test_main_100k.py::TestCalc::test_equal_84 FAILED                        [  9%]
+test_main_100k.py::TestCalc::test_equal_89 PASSED                        [ 10%]
+test_main_100k.py::TestCalc::test_equal_3 PASSED                         [ 11%]
+test_main_100k.py::TestCalc::test_equal_17 PASSED                        [ 12%]
+test_main_100k.py::TestCalc::test_equal_24 FAILED                        [ 13%]
+test_main_100k.py::TestCalc::test_equal_27 FAILED                        [ 14%]
+test_main_100k.py::TestCalc::test_equal_49 PASSED                        [ 15%]
+test_main_100k.py::TestCalc::test_equal_70 PASSED                        [ 16%]
+test_main_100k.py::TestCalc::test_equal_92 PASSED                        [ 17%]
+test_main_100k.py::TestCalc::test_equal_2 PASSED                         [ 18%]
+test_main_100k.py::TestCalc::test_equal_4 PASSED                         [ 19%]
+test_main_100k.py::TestCalc::test_equal_9 PASSED                         [ 20%]
+test_main_100k.py::TestCalc::test_equal_28 PASSED                        [ 21%]
+test_main_100k.py::TestCalc::test_equal_29 PASSED                        [ 22%]
+test_main_100k.py::TestCalc::test_equal_73 PASSED                        [ 23%]
+test_main_100k.py::TestCalc::test_equal_85 PASSED                        [ 24%]
+test_main_100k.py::TestCalc::test_equal_100 PASSED                       [ 25%]
+test_main_100k.py::TestCalc::test_equal_48 PASSED                        [ 26%]
+test_main_100k.py::TestCalc::test_equal_93 PASSED                        [ 27%]
+test_main_100k.py::TestCalc::test_equal_21 PASSED                        [ 28%]
+test_main_100k.py::TestCalc::test_equal_50 PASSED                        [ 29%]
+test_main_100k.py::TestCalc::test_equal_51 PASSED                        [ 30%]
+test_main_100k.py::TestCalc::test_equal_66 PASSED                        [ 31%]
+test_main_100k.py::TestCalc::test_equal_95 PASSED                        [ 32%]
+test_main_100k.py::TestCalc::test_equal_52 PASSED                        [ 33%]
+test_main_100k.py::TestCalc::test_equal_83 PASSED                        [ 34%]
+test_main_100k.py::TestCalc::test_equal_91 PASSED                        [ 35%]
+test_main_100k.py::TestCalc::test_equal_40 PASSED                        [ 36%]
+test_main_100k.py::TestCalc::test_equal_54 PASSED                        [ 37%]
+test_main_100k.py::TestCalc::test_equal_56 PASSED                        [ 38%]
+test_main_100k.py::TestCalc::test_equal_72 PASSED                        [ 39%]
+test_main_100k.py::TestCalc::test_equal_78 PASSED                        [ 40%]
+test_main_100k.py::TestCalc::test_equal_7 PASSED                         [ 41%]
+test_main_100k.py::TestCalc::test_equal_10 PASSED                        [ 42%]
+test_main_100k.py::TestCalc::test_equal_14 PASSED                        [ 43%]
+test_main_100k.py::TestCalc::test_equal_25 PASSED                        [ 44%]
+test_main_100k.py::TestCalc::test_equal_39 PASSED                        [ 45%]
+test_main_100k.py::TestCalc::test_equal_46 PASSED                        [ 46%]
+test_main_100k.py::TestCalc::test_equal_69 PASSED                        [ 47%]
+test_main_100k.py::TestCalc::test_equal_74 PASSED                        [ 48%]
+test_main_100k.py::TestCalc::test_equal_96 PASSED                        [ 49%]
+test_main_100k.py::TestCalc::test_equal_97 PASSED                        [ 50%]
+test_main_100k.py::TestCalc::test_equal_8 PASSED                         [ 51%]
+test_main_100k.py::TestCalc::test_equal_34 PASSED                        [ 52%]
+test_main_100k.py::TestCalc::test_equal_42 PASSED                        [ 53%]
+test_main_100k.py::TestCalc::test_equal_61 PASSED                        [ 54%]
+test_main_100k.py::TestCalc::test_equal_1 PASSED                         [ 55%]
+test_main_100k.py::TestCalc::test_equal_18 PASSED                        [ 56%]
+test_main_100k.py::TestCalc::test_equal_19 PASSED                        [ 57%]
+test_main_100k.py::TestCalc::test_equal_55 PASSED                        [ 58%]
+test_main_100k.py::TestCalc::test_equal_58 PASSED                        [ 59%]
+test_main_100k.py::TestCalc::test_equal_76 PASSED                        [ 60%]
+test_main_100k.py::TestCalc::test_equal_87 PASSED                        [ 61%]
+test_main_100k.py::TestCalc::test_equal_71 PASSED                        [ 62%]
+test_main_100k.py::TestCalc::test_equal_37 PASSED                        [ 63%]
+test_main_100k.py::TestCalc::test_equal_41 PASSED                        [ 64%]
+test_main_100k.py::TestCalc::test_equal_57 PASSED                        [ 65%]
+test_main_100k.py::TestCalc::test_equal_77 PASSED                        [ 66%]
+test_main_100k.py::TestCalc::test_equal_81 PASSED                        [ 67%]
+test_main_100k.py::TestCalc::test_equal_88 PASSED                        [ 68%]
+test_main_100k.py::TestCalc::test_equal_5 PASSED                         [ 69%]
+test_main_100k.py::TestCalc::test_equal_60 PASSED                        [ 70%]
+test_main_100k.py::TestCalc::test_equal_12 PASSED                        [ 71%]
+test_main_100k.py::TestCalc::test_equal_62 PASSED                        [ 72%]
+test_main_100k.py::TestCalc::test_equal_80 PASSED                        [ 73%]
+test_main_100k.py::TestCalc::test_equal_16 PASSED                        [ 74%]
+test_main_100k.py::TestCalc::test_equal_38 PASSED                        [ 75%]
+test_main_100k.py::TestCalc::test_equal_98 PASSED                        [ 76%]
+test_main_100k.py::TestCalc::test_equal_32 PASSED                        [ 77%]
+test_main_100k.py::TestCalc::test_equal_33 PASSED                        [ 78%]
+test_main_100k.py::TestCalc::test_equal_64 PASSED                        [ 79%]
+test_main_100k.py::TestCalc::test_equal_86 PASSED                        [ 80%]
+test_main_100k.py::TestCalc::test_equal_13 PASSED                        [ 81%]
+test_main_100k.py::TestCalc::test_equal_26 PASSED                        [ 82%]
+test_main_100k.py::TestCalc::test_equal_35 PASSED                        [ 83%]
+test_main_100k.py::TestCalc::test_equal_43 PASSED                        [ 84%]
+test_main_100k.py::TestCalc::test_equal_44 PASSED                        [ 85%]
+test_main_100k.py::TestCalc::test_equal_53 PASSED                        [ 86%]
+test_main_100k.py::TestCalc::test_equal_68 PASSED                        [ 87%]
+test_main_100k.py::TestCalc::test_equal_11 PASSED                        [ 88%]
+test_main_100k.py::TestCalc::test_equal_22 PASSED                        [ 89%]
+test_main_100k.py::TestCalc::test_equal_30 PASSED                        [ 90%]
+test_main_100k.py::TestCalc::test_equal_59 PASSED                        [ 91%]
+test_main_100k.py::TestCalc::test_equal_63 PASSED                        [ 92%]
+test_main_100k.py::TestCalc::test_equal_82 PASSED                        [ 93%]
+test_main_100k.py::TestCalc::test_equal_6 PASSED                         [ 94%]
+test_main_100k.py::TestCalc::test_equal_31 PASSED                        [ 95%]
+test_main_100k.py::TestCalc::test_equal_45 PASSED                        [ 96%]
+test_main_100k.py::TestCalc::test_equal_47 PASSED                        [ 97%]
+test_main_100k.py::TestCalc::test_equal_79 PASSED                        [ 98%]
+test_main_100k.py::TestCalc::test_equal_90 PASSED                        [ 99%]
+test_main_100k.py::TestCalc::test_equal_75 PASSED                        [100%]
+
+================================== FAILURES ===================================
+___________________________ TestCalc.test_equal_15 ____________________________
+
+self = <test_main_100k.TestCalc object at 0x000001B9DE620C40>
+
+    @pytest.mark.run(order=novo_dicio.get('t15', 0))
+    def test_equal_15(self):
+>       assert self.inst.equal(75, 10) == 850
+E       assert 85 == 850
+E        +  where 85 = <bound method Calc.equal of <main.Calc object at 0x000001B9DE655ED0>>(75, 10)
+E        +    where <bound method Calc.equal of <main.Calc object at 0x000001B9DE655ED0>> = <main.Calc object at 0x000001B9DE655ED0>.equal
+E        +      where <main.Calc object at 0x000001B9DE655ED0> = <test_main_100k.TestCalc object at 0x000001B9DE620C40>.inst
+
+test_main_100k.py:705: AssertionError
+___________________________ TestCalc.test_equal_67 ____________________________
+
+self = <test_main_100k.TestCalc object at 0x000001B9DE654280>
+
+    @pytest.mark.run(order=novo_dicio.get('t67', 0))
+    def test_equal_67(self):
+>       assert self.inst.equal(7, 10) == 170
+E       assert 17 == 170
+E        +  where 17 = <bound method Calc.equal of <main.Calc object at 0x000001B9DD26CEE0>>(7, 10)
+E        +    where <bound method Calc.equal of <main.Calc object at 0x000001B9DD26CEE0>> = <main.Calc object at 0x000001B9DD26CEE0>.equal
+E        +      where <main.Calc object at 0x000001B9DD26CEE0> = <test_main_100k.TestCalc object at 0x000001B9DE654280>.inst
+
+test_main_100k.py:965: AssertionError
+___________________________ TestCalc.test_equal_84 ____________________________
+
+self = <test_main_100k.TestCalc object at 0x000001B9DE655150>
+
+    @pytest.mark.run(order=novo_dicio.get('t84', 0))
+    def test_equal_84(self):
+>       assert self.inst.equal(29, 85) == 1140
+E       assert 114 == 1140
+E        +  where 114 = <bound method Calc.equal of <main.Calc object at 0x000001B9DE6567A0>>(29, 85)
+E        +    where <bound method Calc.equal of <main.Calc object at 0x000001B9DE6567A0>> = <main.Calc object at 0x000001B9DE6567A0>.equal
+E        +      where <main.Calc object at 0x000001B9DE6567A0> = <test_main_100k.TestCalc object at 0x000001B9DE655150>.inst
+
+test_main_100k.py:1050: AssertionError
+___________________________ TestCalc.test_equal_24 ____________________________
+
+self = <test_main_100k.TestCalc object at 0x000001B9DE621810>
+
+    @pytest.mark.run(order=novo_dicio.get('t24', 0))
+    def test_equal_24(self):
+>       assert self.inst.equal(58, 15) == 730
+E       assert 73 == 730
+E        +  where 73 = <bound method Calc.equal of <main.Calc object at 0x000001B9DD233EE0>>(58, 15)
+E        +    where <bound method Calc.equal of <main.Calc object at 0x000001B9DD233EE0>> = <main.Calc object at 0x000001B9DD233EE0>.equal
+E        +      where <main.Calc object at 0x000001B9DD233EE0> = <test_main_100k.TestCalc object at 0x000001B9DE621810>.inst
+
+test_main_100k.py:750: AssertionError
+___________________________ TestCalc.test_equal_27 ____________________________
+
+self = <test_main_100k.TestCalc object at 0x000001B9DE6217E0>
+
+    @pytest.mark.run(order=novo_dicio.get('t27', 0))
+    def test_equal_27(self):
+>       assert self.inst.equal(33, 97) == 1300
+E       assert 130 == 1300
+E        +  where 130 = <bound method Calc.equal of <main.Calc object at 0x000001B9DE657310>>(33, 97)
+E        +    where <bound method Calc.equal of <main.Calc object at 0x000001B9DE657310>> = <main.Calc object at 0x000001B9DE657310>.equal
+E        +      where <main.Calc object at 0x000001B9DE657310> = <test_main_100k.TestCalc object at 0x000001B9DE6217E0>.inst
+
+test_main_100k.py:765: AssertionError
+=========================== short test summary info ===========================
+FAILED test_main_100k.py::TestCalc::test_equal_15 - assert 85 == 850
+FAILED test_main_100k.py::TestCalc::test_equal_67 - assert 17 == 170
+FAILED test_main_100k.py::TestCalc::test_equal_84 - assert 114 == 1140
+FAILED test_main_100k.py::TestCalc::test_equal_24 - assert 73 == 730
+FAILED test_main_100k.py::TestCalc::test_equal_27 - assert 130 == 1300
+======================== 5 failed, 95 passed in 0.83s =========================

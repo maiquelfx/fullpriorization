@@ -1,0 +1,38 @@
+name: Run APFD
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '14'
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.x  
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt 
+          pip install pytest
+         
+      - name: APFD
+        run: |
+          python APFD/apfd.py 
+          
+      - name: APFD2
+        run: |
+          python APFD/apfd2.py 
+

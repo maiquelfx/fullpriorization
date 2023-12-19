@@ -1,0 +1,3 @@
+python test_timeit_n.py // o arquivo gera o dicionário em txt
+python -m pytest -v test_main_n.py // rodar o testes priorizados
+python -m pytest -v test_simple_n.py // rodar testes lineares
